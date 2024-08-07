@@ -1,0 +1,23 @@
+input{
+    background-color: aqua;
+    /* width: 200px;
+    height: 30px; */
+    padding: 10px 20px;
+    outline-color: red;
+    border: 1px solid #d9ff00;
+}
+
+select{
+    width: 200px;
+    height: 40px;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+th, td{
+    border: 1px solid grey;
+    padding: 6px 30px;
+}

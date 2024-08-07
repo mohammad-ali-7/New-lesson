@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    line-height: 30px;
+}
+
+.header ul{
+    display: flex;
+    gap: 40px;
+}
+
+.header ul li{
+    list-style: none;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+/* section two */
+
+.showcase{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side{
+    padding: 20px 120px;
+}
+
+.left-side h1{
+    font-size: 4em;
+    padding-bottom: 20px;
+}
+span{
+    color: blue;
+}
+
+.project-Btn{
+    background-color: blue;
+    padding: 8px 16px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.Linked-Btn{
+    background-color: transparent;
+    padding: 8px 16px;
+    color: blue;
+    font-size: 25px;
+    border: 1px solid blue;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.right-side img{
+    width: 300px;
+    padding-right: 120px;
+    padding-top: 60px;
+    border-radius: 50%;
+}
+
+/* section three */
+
+.project{
+    display: flex;
+    background-color: bisque;
+    width: 900px;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.pr-left h1{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 3em;
+}
+.pr-left p{
+    padding: 0px 40px;
+}
+
+.pr-left button{
+    background-color: blue;
+    padding: 8px 16px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.pr-right img{
+    width: 500px;
+    height: 400px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* section 4 */
+
+.project2{
+    display: flex;
+    background-color: red;
+    width: 900px;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.pr-left2 h1{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 3em;
+}
+.pr-left2 p{
+    padding: 0px 40px;
+}
+
+.pr-left2 button{
+    background-color: blue;
+    padding: 8px 16px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.pr-right2 img{
+    width: 500px;
+    height: 400px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.header i{
+    display: none;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 390px) {
+    .header{
+        padding: 10px 15px;
+    }
+    .header ul{
+        display: none;
+    }
+    .header h1{
+        padding-top: 10px;
+    }
+    .header i{
+        display: block;
+    }
+    .showcase{
+        display: block;
+    }
+    .left-side{
+        padding: 60px 30px;
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .left-side h1{
+        font-size: 3em;
+    }
+    .right-side img{
+        padding: 20px 30px;
+    }
+    .project{
+        display: block;
+        width: 90%;
+        /* margin: 80px 15px; */
+        margin-top: 20px;
+        margin-bottom: 120px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .pr-right img{
+        width: 100%;
+        margin-top: 40px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+    }
+
+    .pr-right2 img{
+        width: 100%;
+        margin-top: 40px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+    }
+
+    .project2{
+        display: block;
+        width: 90%;
+        /* margin: 80px 15px; */
+        margin-top: 400px;
+        margin-bottom: 320px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .pr-right2 img{
+        width: 100%;
+        margin-top: 0px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 834px) {
+    .project{
+        margin: 80px 80px;
+        margin: 80px;
+    }
+    .project2{
+        margin: 80px;
+    }
+}
